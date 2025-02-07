@@ -1,71 +1,57 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мастерская "В Гараже"</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Добрый день! Мастерская "В Гараже" приветствует Вас!</h1>
+        <p>Изготавливаем качественные мангалы, коптильни, мебель и многое другое.</p>
+    </header>
+    <nav>
+        <a href="#services">Услуги</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <div class="container">
+        <section id="services">
+            <h2>Наши услуги</h2>
+            <ul>
+                <li>Манганы/барбекю из газовых баллонов</li>
+                <li>Казанницы</li>
+                <li>Коптильни автоматические горячего и холодного копчения</li>
+                <li>Мебель из металла (лофт столы, стулья, кровати, полки, стеллажи)</li>
+                <li>Беседки/навесы</li>
+                <li>Теплицы</li>
+                <li>Бытовки и инвентарные для дачи</li>
+                <li>Модульные здания</li>
+                <li>Электрощитовое оборудование</li>
+                <li>И многое другое...</li>
+            </ul>
+            <p>Каждый заказ обговаривается индивидуально.</p>
+        </section>
+        <section id="gallery" class="image-gallery">
+            <h2>Галерея работ</h2>
+            <div class="gallery">
+                <img src="images/mangal1.jpg" alt="Мангал из газового баллона">
+                <img src="images/mangal2.jpg" alt="Стальной мангал с крышкой">
+                <img src="images/mangal3.jpg" alt="Дизайнерский мангал с узорами">
+                <img src="images/mangal4.jpg" alt="Большой стационарный мангал">
+                <img src="images/mangal5.jpg" alt="Компактный переносной мангал">
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Контакты</h2>
+            <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+            <p>Email: example@email.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Мастерская "В Гараже". Все права защищены.</p>
+    </footer>
+</body>
+</html>
 
-header {
-    background: #222;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-nav {
-    background: #333;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-}
-
-h1, h2 {
-    text-align: center;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-}
-
-.contact {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.image-sample {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.image-sample img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ccc;
-}
-
-footer {
-    background: #222;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    margin-top: 20px;
-}
